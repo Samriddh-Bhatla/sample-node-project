@@ -1,6 +1,6 @@
 {
   "name": "my-project",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Sample Node.js Project",
   "main": "app.js",
   "scripts": {
@@ -10,7 +10,7 @@
   "author": "Adem Cemil YALCIN",
   "license": "ISC",
   "dependencies": {
-    "express":"latest",
-    "ejs":"latest"
+    "express": "latest",
+    "ejs": "latest"
   }
 }
