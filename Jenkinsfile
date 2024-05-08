@@ -4,7 +4,7 @@ pipeline {
     stage('Build Docker Image') { 
       steps { 
         script { 
-          docker.build('nodeapp') 
+          docker.build('nodeapp2') 
         } 
       } 
     } 
@@ -12,7 +12,7 @@ pipeline {
       steps { 
         script { 
           docker.withRegistry('http://localhost:5000', 'my-docker-repo-cred') { 
-            docker.image('nodeapp').push() 
+            docker.image('nodeapp2').push() 
           } 
         } 
       } 
