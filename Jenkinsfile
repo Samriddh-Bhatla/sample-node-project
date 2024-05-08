@@ -1,4 +1,3 @@
-@Library('docker')
 pipeline {
   agent any
   stages { 
